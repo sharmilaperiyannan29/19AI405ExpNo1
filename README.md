@@ -41,7 +41,7 @@
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
 #PROGRAM
-
+```
 Medicine Prescribing AI Agent using PEAS Description
 import random
 class HealthMonitoringAgent:
@@ -85,6 +85,7 @@ if __name__ == "__main__":
     health_monitoring_agent.sensors = health_sensors
     health_monitoring_agent.actuators = health_actuators
     health_monitoring_agent.monitor_health()
+    ```
 
 #OUTPUT
 <img width="735" height="195" alt="image" src="https://github.com/user-attachments/assets/35188306-2a69-4145-97f9-723d2e6c6e2e" />
