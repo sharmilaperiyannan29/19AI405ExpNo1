@@ -40,9 +40,12 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
-#PROGRAM
+
+<h3>PROGRAM</h3>
+<pre>
+<code>
+# Medicine Prescribing AI Agent using PEAS Description
 ```
-Medicine Prescribing AI Agent using PEAS Description
 import random
 class HealthMonitoringAgent:
     def __init__(self, patient_data):
@@ -85,8 +88,14 @@ if __name__ == "__main__":
     health_monitoring_agent.sensors = health_sensors
     health_monitoring_agent.actuators = health_actuators
     health_monitoring_agent.monitor_health()
-    ```
+```
+</code>
+</pre>
 
-#OUTPUT
-<img width="735" height="195" alt="image" src="https://github.com/user-attachments/assets/35188306-2a69-4145-97f9-723d2e6c6e2e" />
+<h3>OUTPUT:</h3>
 
+<img width="735" height="195" alt="Screenshot 2026-07-25 114709" src="https://github.com/user-attachments/assets/42059dac-886a-4e88-b8d3-5cc309f86190" />
+
+
+<h3>RESULT</h3>
+<p>Thus the Developing AI Agent with PEAS Description was implemented using python programming.</p>
